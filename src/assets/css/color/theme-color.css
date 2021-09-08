@@ -1,0 +1,456 @@
+
+/* theme-color */
+
+.scroll-top{
+  background: #8ee000;
+}
+
+.preloader-close{
+  background: #8ee000;
+}
+
+.handle-preloader .animation-preloader .txt-loading .letters-loading{
+  color: #8ee000;
+}
+
+.handle-preloader .animation-preloader .txt-loading .letters-loading:before{
+  color: #8ee000;
+}
+
+.handle-preloader .animation-preloader .spinner{
+  border: 3px solid #8ee000;
+}
+
+.main-header .header-top .info li a:hover{
+  color: #8ee000;
+}
+
+.main-header .header-top .info li i{
+  color: #8ee000;
+}
+
+.main-header .header-top .social-links li a:hover{
+  color: #8ee000;
+}
+
+.main-menu .navigation > li.current > a,
+.main-menu .navigation > li:hover > a{
+  color: #8ee000 !important;
+}
+
+.main-menu .navigation > li > ul > li > a:hover,
+.main-menu .navigation > li > .megamenu li > a:hover{
+	color: #8ee000 !important;
+}
+
+.main-menu .navigation > li > ul > li > ul > li > a:hover{
+  color: #8ee000 !important;
+}
+
+.theme-btn-one{
+	background: #8ee000;
+}
+
+.main-header .search-box-btn:hover{
+  color: #8ee000;
+}
+
+.banner-carousel h5{
+	color: #8ee000;
+}
+
+.nav-style-one .owl-nav .owl-prev:hover,
+.nav-style-one .owl-nav .owl-next:hover{
+  background: #8ee000;
+}
+
+.sec-title h5{
+	color: #8ee000;
+}
+
+.counter-block-one .icon-box:before{
+	background: #8ee000;
+}
+
+.counter-block-one .icon-box .dotted{
+	background: #8ee000;
+}
+
+.service-block-one .inner-box .image-box{
+	background: #8ee000;
+}
+
+.theme-btn-two:after{
+	background: #8ee000;
+}
+
+.theme-btn-two:before{
+	background: #8ee000;
+}
+
+.theme-btn-two:hover{
+	border-color: #8ee000;
+}
+
+.service-block-one .inner-box .lower-content .icon-box{
+	color: #8ee000;
+}
+
+.service-block-one .inner-box .lower-content .icon-box:before{
+	background: #8ee000;
+}
+
+.service-block-one .inner-box .lower-content h3 a:hover{
+  color: #8ee000;
+}
+
+.theme-btn-three:before{
+	background: #8ee000;
+}
+
+.theme-btn-three:hover{
+  background: #8ee000;
+}
+
+.accordion-box .block .acc-btn.active .icon-outer{
+	background: #8ee000;
+	border-color: #8ee000;
+}
+
+#content_block_2 .content-box .support-box .icon-box{
+	color: #8ee000;
+}
+
+#content_block_2 .content-box .support-box .icon-box:before{
+	background: #8ee000;
+}
+
+#content_block_2 .content-box .support-box h3 a:hover{
+  color: #8ee000;
+}
+
+#content_block_3 .content-box .subscribe-form .form-group input:focus{
+  border-color: #8ee000 !important;
+}
+
+.team-block-one .inner-box .image-box .social-links li a:hover{
+  background: #8ee000;
+}
+
+.team-block-one .inner-box .lower-content .inner h3 a:hover{
+  color: #8ee000;
+}
+
+.team-block-one .inner-box .lower-content .inner .designation{
+	color: #8ee000;
+}
+
+.testimonial-block-one .inner-box .quote{
+	color: #8ee000;
+}
+
+.testimonial-section .owl-theme .owl-dots .owl-dot span{
+	border: 2px solid #8ee000;
+}
+
+.testimonial-section .owl-theme .owl-dots .owl-dot span:before{
+	background: #8ee000;
+}
+
+.video-section .inner-box a{
+	border: 5px solid #8ee000;
+	color: #8ee000;
+}
+
+.cta-section .text h2 span{
+  color: #8ee000;
+}
+
+.news-block-one .inner-box .lower-content h3 a:hover{
+  color: #8ee000;
+}
+
+.news-block-one .inner-box .lower-content .admin-box a:hover{
+  color: #8ee000;
+}
+
+.default-form .form-group input:focus,
+.default-form .form-group textarea:focus{
+  border-color: #8ee000 !important;
+}
+
+.footer-top .footer-widget .social-links li a:hover{
+  background: #8ee000;
+}
+
+.footer-top .links-widget .links-list li a:hover{
+  color: #8ee000;
+}
+
+.footer-top .contact-widget .info-list li a:hover{
+  color: #8ee000;
+}
+
+.footer-top .contact-widget .info-list li i{
+	color: #8ee000;
+}
+
+.footer-top .subscribe-widget .subscribe-form .form-group button{
+	background: #8ee000;
+}
+
+.footer-top .subscribe-widget .subscribe-form .form-group input:focus{
+  border-color: #8ee000 !important;
+}
+
+.footer-bottom .bottom-inner .copyright p a:hover{
+  color: #8ee000;
+}
+
+.footer-bottom .bottom-inner .footer-nav li a:hover{
+  color: #8ee000;
+}
+
+.feature-block-one .inner-box:hover .icon-box{
+	color: #8ee000;
+}
+
+#image_block_2 .image-box .content-inner .text h2{
+	color: #8ee000;
+}
+
+.service-block-two .inner-box .inner h3 a:hover{
+  color: #8ee000;
+}
+
+.service-block-two .inner-box:hover .icon-box{
+  color: #8ee000;
+}
+
+.service-block-two .inner-box:hover .inner .theme-btn-two{
+  background: #8ee000;
+  border-color: #8ee000;
+}
+
+#content_block_6 .content-box .tabs-content .inner-box .form-group input:focus{
+  border-color: #8ee000 !important;
+}
+
+.main-header.style-three .header-top .social-links li a:hover{
+  color: #8ee000;
+}
+
+.header-upper .upper-info li p a:hover{
+  color: #8ee000;
+}
+
+.main-header.style-three .lower-inner .search-box-btn:hover{
+  color: #8ee000;
+}
+
+.feature-style-two .title-inner .text{
+  border-left: 4px solid #8ee000;
+}
+
+.feature-block-two .inner-box .lower-content .inner .icon-box{
+  background: #8ee000;
+}
+
+.about-style-three #content_block_5 .content-box .list-item li:before{
+  background: #8ee000;
+  border-color: #8ee000;
+}
+
+#image_block_4 .image-box .content-inner .text h3{
+  color: #8ee000;
+}
+
+.service-style-three .service-block-two .inner-box:hover .inner h4,
+.service-style-three .service-block-two .inner-box:hover .inner h4 a{
+  color: #8ee000;
+}
+
+.service-style-three .owl-theme .owl-dots .owl-dot.active span,
+.service-style-three .owl-theme .owl-dots .owl-dot span:hover{
+  background: #8ee000;
+}
+
+.service-style-three .owl-theme .owl-dots .owl-dot span:before{
+  background: #8ee000;
+}
+
+.cta-style-two .text h2 span{
+  color: #8ee000;
+}
+
+.news-block-two .inner-box .lower-content h3 a:hover{
+  color: #8ee000;
+}
+
+.news-block-one .inner-box .lower-content .admin-box a:hover{
+  color: #8ee000;
+}
+
+.news-block-two .inner-box:hover .lower-content .theme-btn-two{
+  background: #8ee000;
+  border-color: #8ee000;
+}
+
+.news-block-two .inner-box .lower-content .admin-box .admin-thumb{
+  border: 3px solid #8ee000;
+}
+
+.bg-color-3{
+  background: #8ee000 !important;
+}
+
+.page-title .content-box .bread-crumb li{
+  color: #8ee000;
+}
+
+.page-title .content-box .bread-crumb li a:hover{
+  color: #8ee000;
+}
+
+.history-section .inner-box .text:before{
+  background: #8ee000;
+}
+
+.history-section .inner-box .line-box span{
+  color: #8ee000;
+}
+
+.history-section .inner-box .year-box h3:before{
+  background: #8ee000;
+}
+
+.testimonial-style-three .inner-box .author-thumb i{
+  background: #8ee000;
+}
+
+.testimonial-style-three .owl-theme .owl-dots .owl-dot span{
+  border: 2px solid #8ee000;
+}
+
+.testimonial-style-three .owl-theme .owl-dots .owl-dot span:before{
+  background: #8ee000;
+}
+
+.pricing-block-one.active-block .pricing-table .table-header .price-box h2{
+  color: #8ee000;
+}
+
+.about-style-four .lower-box .text .list-item li:before{
+  background: #8ee000;
+}
+
+.sortable-masonry .filters .filter-tabs li.active,
+.sortable-masonry .filters .filter-tabs li:hover{
+  color: #8ee000;
+}
+
+.project-block-one .inner-box .content-box .view-btn a{
+  background: #8ee000;
+}
+
+.project-block-one .inner-box .content-box .title-text h3 a:hover{
+  color: #8ee000;
+}
+
+.project-details-content .list-item li:before{
+  background: #8ee000;
+}
+
+.project-details-content .inner-box .info-box .social-links li a:hover{
+  color: #8ee000;
+}
+
+.pagination li a:hover,
+.pagination li a.active{
+  background: #8ee000;
+}
+
+.news-block-one .inner-box .lower-content h2 a:hover{
+  color: #8ee000;
+}
+
+.sidebar .search-widget .search-form .form-group button{
+  background: #8ee000;
+}
+
+.sidebar .search-widget .search-form .form-group input:focus{
+  border-color: #8ee000 !important;
+}
+
+.sidebar .category-widget .category-list li a:hover{
+  color: #8ee000;
+}
+
+.sidebar .category-widget .category-list li a:hover span{
+  background: #8ee000;
+  border-color: #8ee000;
+}
+
+.sidebar .post-widget .post h4 a:hover{
+  color: #8ee000;
+}
+
+.sidebar .archives-widget .archives-list li a:hover{
+  color: #8ee000;
+}
+
+.sidebar .archives-widget .archives-list li a:hover span{
+  background: #8ee000;
+  border-color: #8ee000;
+}
+
+.sidebar .tags-widget .tags-list li a:hover{
+  background: #8ee000;
+  border-color: #8ee000;
+}
+
+.blog-details-content .news-block-one .text blockquote{
+  border-left: 4px solid #8ee000;
+}
+
+.blog-details-content .news-block-one .text blockquote i{
+  color: #8ee000;
+}
+
+.blog-details-content .list-item li:before{
+  background: #8ee000;
+}
+
+.blog-details-content .post-share-option .social-links li a:hover{
+  background: #8ee000;
+}
+
+.blog-details-content .comment-box .comment .comment-inner a:hover{
+  color: #8ee000;
+}
+
+.blog-details-content .comments-form-area .form-group input:focus,
+.blog-details-content .comments-form-area .form-group textarea:focus{
+  border-color: #8ee000 !important;
+}
+
+.contact-style-three .info-box .info-list li i{
+  color: #8ee000;
+}
+
+.contact-style-three .info-box .info-list li:hover i{
+  background: #8ee000;
+  border-color: #8ee000;
+}
+
+.contact-style-three .info-box .info-list li p a:hover{
+  color: #8ee000;
+}
+
+.mobile-menu .contact-info ul li a:hover{
+  color: #8ee000;
+}
+
+.mobile-menu .social-links li a:hover{
+  color: #8ee000;
+}

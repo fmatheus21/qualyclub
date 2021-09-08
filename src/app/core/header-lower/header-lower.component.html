@@ -1,0 +1,59 @@
+<div class="header-lower">
+  <div class="auto-container">
+    <div class="outer-box clearfix">
+      <div class="logo-box pull-left">
+        <figure class="logo"><a href="index.html"><img src="./assets/images/logo.png" alt=""></a></figure>
+      </div>
+      <div class="menu-area pull-right">
+        <!--Mobile Navigation Toggler-->
+        <div class="mobile-nav-toggler">
+          <i class="icon-bar"></i>
+          <i class="icon-bar"></i>
+          <i class="icon-bar"></i>
+        </div>
+        <nav class="main-menu navbar-expand-md navbar-light">
+          <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+            <ul class="navigation clearfix">
+              <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                <a [routerLink]="['/home']">Home</a>
+              </li>
+              <li class="dropdown" [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                <a href="javascript:void(0);">Institucional</a>
+                <ul>
+                  <li><a [routerLink]="['/']" [fragment]="'about'">Sobre Nós</a></li>
+                  <li><a href="javascript:void(0);">Missão</a></li>
+                  <li><a href="javascript:void(0);">Números</a></li>
+                  <li><a href="javascript:void(0);">Serviços Top Of Mind</a></li>
+                  <li><a href="javascript:void(0);">Duvidas Sobre Proteção Veicular</a></li>
+                  <li><a href="javascript:void(0);">Blog</a></li>
+                </ul>
+              </li>
+              <li class="dropdown" [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                <a href="javascript:void(0);">Nossos Planos</a>
+                <ul>
+                  <li><a [routerLink]="['/planos/carro']">Para Carros</a></li>
+                  <li><a [routerLink]="['/planos/moto']">Para Motos</a></li>
+                  <li><a [routerLink]="['/planos/utilitario']">Para Vans e Utilitários</a></li>
+                </ul>
+              </li>
+              <li class="dropdown" [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                <a href="javascript:void(0);">Assistências</a>
+                <ul>
+                  <li><a [routerLink]="['/assistencias/assistencia-24-horas']">Assistência 24 hs</a></li>
+                  <li><a [routerLink]="['/assistencias/seguro-ap']">Seguro Ap</a></li>
+                  <li><a [routerLink]="['/assistencias/seguro-app']">Seguro App</a></li>
+                  <li><a [routerLink]="['/assistencias/protecao-vidros']">Proteção Vidros</a></li>
+                  <li><a [routerLink]="['/assistencias/carro-reserva']">Carro Reserva</a></li>
+                  <li><a [routerLink]="['/assistencias/beneficios-extras']">Benefícios Extras</a></li>
+                </ul>
+              </li>
+              <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                <a [routerLink]="['/contato']">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>

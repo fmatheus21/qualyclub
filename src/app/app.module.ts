@@ -7,10 +7,11 @@ import { CoreModule } from './core/core.module';
 import { NgxUiLoaderConfig, NgxUiLoaderHttpModule, NgxUiLoaderModule, NgxUiLoaderRouterModule, PB_DIRECTION, POSITION, SPINNER } from 'ngx-ui-loader';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 
 const ngxUiLoaderConfig: NgxUiLoaderConfig = {
-  bgsColor: '#15397b',
+  bgsColor: '#8ee000',
   bgsOpacity: 0.5,
   bgsPosition: POSITION.bottomLeft,
   bgsSize: 60,
@@ -18,7 +19,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   // blur: 5,
   // delay: 0,
   fastFadeOut: true,
-  fgsColor: '#15397b',
+  fgsColor: '#8ee000',
   fgsPosition: POSITION.centerCenter,
   fgsSize: 150,
   fgsType: SPINNER.ballScaleMultiple,
@@ -28,8 +29,8 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   //logoUrl: 'assets/images/logo.png',
   // overlayBorderRadius: '0',
   //overlayColor: 'rgba(40, 40, 40, 0.8)',
-  overlayColor: '#8ee000',
-  pbColor: '#15397b',
+  overlayColor: '#15397b',
+  pbColor: '#8ee000',
   pbDirection: PB_DIRECTION.leftToRight,
   pbThickness: 5,
   hasProgressBar: true,
@@ -47,6 +48,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     CoreModule,
     SweetAlert2Module.forRoot(),
     NgxUiLoaderModule.forRoot(ngxUiLoaderConfig),

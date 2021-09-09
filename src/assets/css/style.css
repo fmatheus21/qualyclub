@@ -2053,6 +2053,7 @@ div#mCSB_1_container{
   top: 12px;
   font-size: 26px;
   line-height: 30px;
+  color: #fff;
 }
 
 #content_block_2 .content-box .support-box .icon-box:before {
@@ -2063,7 +2064,8 @@ div#mCSB_1_container{
   top: -5px;
   left: 0px;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 60% 0%);
-  opacity: 0.1;
+  opacity: 1;
+  background: rgba(255,255,255,0.2);
 }
 
 #content_block_2 .content-box .support-box h6{
@@ -2071,6 +2073,7 @@ div#mCSB_1_container{
   line-height: 26px;
   font-weight: 500;
   margin-bottom: 0px;
+  color: #fff;
 }
 
 #content_block_2 .content-box .support-box h3{
@@ -2083,11 +2086,11 @@ div#mCSB_1_container{
 
 #content_block_2 .content-box .support-box h3 a{
   display: inline-block;
-  color: #00224f;
+  color: #fff;
 }
 
 #content_block_2 .content-box .support-box h3 a:hover{
-
+  color: #fff;
 }
 
 #content_block_3 .content-box{
@@ -2914,6 +2917,7 @@ div#mCSB_1_container{
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  padding-top: 270px;
 }
 
 .footer-top:before{
@@ -3852,6 +3856,7 @@ div#mCSB_1_container{
   background-repeat: no-repeat;
 }
 
+#content_block_2 .content-box h3,
 .agent-section.alternat-2 #content_block_2 .content-box h3,
 .agent-section.alternat-2 #content_block_2 .content-box .support-box h6,
 .agent-section.alternat-2 #content_block_2 .content-box .support-box h3 a,

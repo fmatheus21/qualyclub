@@ -21,23 +21,31 @@
               </div>
             </div>
           </div>
+
           <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
             <div class="footer-widget links-widget ml-50">
               <div class="widget-title">
-                <h3>Services</h3>
+                <h3>Institucional</h3>
               </div>
               <div class="widget-content">
                 <ul class="links-list clearfix">
-                  <li><a href="index.html">Car In surance</a></li>
-                  <li><a href="index.html">Home Insurance</a></li>
-                  <li><a href="index.html">Life Insurance</a></li>
-                  <li><a href="index.html">Health Insurance</a></li>
-                  <li><a href="index.html">Travels Insurance</a></li>
-                  <li><a href="index.html">Business</a></li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/institucional/sobre-nos']">Sobre Nós</a>
+                  </li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/institucional/missao']">Missão</a>
+                  </li>
+                  <li><a href="javascript:void(0);">Números</a></li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/institucional/top-of-mind']">Serviços Top Of Mind</a>
+                  </li>
+                  <li><a href="javascript:void(0);">Duvidas Sobre Proteção Veicular</a></li>
+                  <li><a href="javascript:void(0);">Blog</a></li>
                 </ul>
               </div>
             </div>
           </div>
+
           <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
             <div class="footer-widget contact-widget">
               <div class="widget-title">

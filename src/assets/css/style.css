@@ -2029,7 +2029,7 @@ div#mCSB_1_container{
 #content_block_2 .content-box{
   position: relative;
   display: block;
-  border: 1px dashed #d9d9d9;
+  border: 1px dashed rgba(255,255,255,0.7);
   border-radius: 10px;
   padding: 32px 40px 21px 40px;
 }
@@ -7188,3 +7188,5 @@ div#mCSB_1_container{
 .three-item-carousel .owl-stage-outer .owl-item.active{
   opacity: 1;
 }
+
+

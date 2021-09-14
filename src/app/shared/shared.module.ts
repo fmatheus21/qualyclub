@@ -13,6 +13,7 @@ import { CtaSectionComponent } from './cta-section/cta-section.component';
 import { NewsSectionComponent } from './news-section/news-section.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { AgentSectionAlternatComponent } from './agent-section-alternat/agent-section-alternat.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { AgentSectionAlternatComponent } from './agent-section-alternat/agent-se
     AgentSectionAlternatComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     BannerSectionComponent,

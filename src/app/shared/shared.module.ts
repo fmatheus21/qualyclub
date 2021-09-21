@@ -14,6 +14,7 @@ import { NewsSectionComponent } from './news-section/news-section.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { AgentSectionAlternatComponent } from './agent-section-alternat/agent-section-alternat.component';
 import { RouterModule } from '@angular/router';
+import { InformationComponent } from './information/information.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { RouterModule } from '@angular/router';
     CtaSectionComponent,
     NewsSectionComponent,
     ContactSectionComponent,
-    AgentSectionAlternatComponent
+    AgentSectionAlternatComponent,
+    InformationComponent
   ],
   imports: [
     CommonModule,
@@ -49,7 +51,8 @@ import { RouterModule } from '@angular/router';
     CtaSectionComponent,
     NewsSectionComponent,
     ContactSectionComponent,
-    AgentSectionAlternatComponent
+    AgentSectionAlternatComponent,
+    InformationComponent
   ]
 })
 export class SharedModule { }

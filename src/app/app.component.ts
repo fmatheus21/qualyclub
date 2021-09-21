@@ -12,7 +12,10 @@ import 'rxjs/add/operator/mergeMap';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'qualyclub';
+
+  breadcrumb: string;
+  private whatsappNumber: string = '5521981964019';
+  whatsappUrl: string;
 
   constructor(
     private scriptService: ScriptService,
@@ -23,7 +26,7 @@ export class AppComponent {
 
   ngOnInit() {
     this.loadTitlePage();
-    //this.scriptService.loadExternalScript('./assets/js/script.js').then(() => { }).catch(() => { });
+    this.whatsappUrl = `https://api.whatsapp.com/send?phone=${this.whatsappNumber}`
   }
 
 
@@ -37,7 +40,11 @@ export class AppComponent {
       })
       .filter((route) => route.outlet === 'primary')
       .mergeMap((route) => route.data)
-      .subscribe((event) => this.titleService.setTitle(event['title']));
+      .subscribe((event) => {
+        this.titleService.setTitle(event['title']);
+        this.breadcrumb = event['breadcrumb'];
+        this.scriptService.storeBreadcrumb(this.breadcrumb);
+      });
   }
 
 }

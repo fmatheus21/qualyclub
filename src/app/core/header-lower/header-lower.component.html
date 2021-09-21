@@ -45,12 +45,27 @@
               <li class="dropdown" [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
                 <a href="javascript:void(0);">Assistências</a>
                 <ul>
-                  <li><a [routerLink]="['/assistencias/assistencia-24-horas']">Assistência 24 hs</a></li>
-                  <li><a [routerLink]="['/assistencias/seguro-ap']">Seguro Ap</a></li>
-                  <li><a [routerLink]="['/assistencias/seguro-app']">Seguro App</a></li>
-                  <li><a [routerLink]="['/assistencias/protecao-vidros']">Proteção Vidros</a></li>
-                  <li><a [routerLink]="['/assistencias/carro-reserva']">Carro Reserva</a></li>
-                  <li><a [routerLink]="['/assistencias/beneficios-extras']">Benefícios Extras</a></li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/assistencia/rastreamento']">Rastreamento Qualy Club</a>
+                  </li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/assistencia/24-horas']">Assistência 24 hs</a>
+                  </li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/assistencia/carro-reserva']">Carro Reserva</a>
+                  </li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/assistencia/vidro']">Vidros</a>
+                  </li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/assistencia/seguro-ap']">Seguro AP</a>
+                  </li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/assistencia/seguro-app']">Seguro APP</a>
+                  </li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/assistencia/residencial']">Residencial</a>
+                  </li>
                 </ul>
               </li>
               <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">

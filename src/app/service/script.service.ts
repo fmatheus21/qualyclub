@@ -5,6 +5,8 @@ import { Injectable } from '@angular/core';
 })
 export class ScriptService {
 
+  private readonly BREADCRUMB = 'breadcrumb';
+
   constructor() { }
 
   public loadExternalScript(scriptUrl: string) {
@@ -23,6 +25,15 @@ export class ScriptService {
       styleElement.onload = resolve;
       document.head.appendChild(styleElement);
     });
+  }
+
+  public storeBreadcrumb(breadcrumb: string) {
+    localStorage.removeItem(this.BREADCRUMB);
+    localStorage.setItem(this.BREADCRUMB, breadcrumb);
+  }
+
+  public returnBreadcrumb() {
+    return localStorage.getItem(this.BREADCRUMB);
   }
 
 }

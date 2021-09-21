@@ -8,6 +8,7 @@ import { HeaderStickyComponent } from './header-sticky/header-sticky.component';
 import { MenuMobileComponent } from './menu-mobile/menu-mobile.component';
 import { FooterComponent } from './footer/footer.component';
 import { RouterModule } from '@angular/router';
+import { PageTitleComponent } from './page-title/page-title.component';
 
 
 
@@ -19,7 +20,8 @@ import { RouterModule } from '@angular/router';
     HeaderLowerComponent,
     HeaderStickyComponent,
     MenuMobileComponent,
-    FooterComponent
+    FooterComponent,
+    PageTitleComponent
   ],
   imports: [
     CommonModule,
@@ -32,7 +34,8 @@ import { RouterModule } from '@angular/router';
     HeaderLowerComponent,
     HeaderStickyComponent,
     MenuMobileComponent,
-    FooterComponent
+    FooterComponent,
+    PageTitleComponent
   ]
 })
 export class CoreModule { }

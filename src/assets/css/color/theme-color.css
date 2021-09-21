@@ -68,9 +68,11 @@
   background: #8ee000;
 }
 
-.sec-title h5{
+.sec-title h5,
+.sec-title-b{
 	color: #8ee000;
 }
+
 
 .counter-block-one .icon-box:before{
 	background: #8ee000;

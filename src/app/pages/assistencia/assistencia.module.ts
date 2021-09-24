@@ -11,6 +11,9 @@ import { VidroComponent } from './vidro/vidro.component';
 import { SeguroApComponent } from './seguro-ap/seguro-ap.component';
 import { SeguroAppComponent } from './seguro-app/seguro-app.component';
 import { ResidencialComponent } from './residencial/residencial.component';
+import { PetComponent } from './pet/pet.component';
+import { BikeComponent } from './bike/bike.component';
+import { FuneralComponent } from './funeral/funeral.component';
 
 
 @NgModule({
@@ -21,7 +24,10 @@ import { ResidencialComponent } from './residencial/residencial.component';
     VidroComponent,
     SeguroApComponent,
     SeguroAppComponent,
-    ResidencialComponent
+    ResidencialComponent,
+    PetComponent,
+    BikeComponent,
+    FuneralComponent
   ],
   imports: [
     CommonModule,

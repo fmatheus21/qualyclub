@@ -6,18 +6,22 @@ import { AboutComponent } from './about/about.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { MissaoComponent } from './missao/missao.component';
 import { TopOfMindComponent } from './top-of-mind/top-of-mind.component';
+import { CoreModule } from 'src/app/core/core.module';
+import { FaqComponent } from './faq/faq.component';
 
 
 @NgModule({
   declarations: [
     AboutComponent,
     MissaoComponent,
-    TopOfMindComponent
+    TopOfMindComponent,
+    FaqComponent
   ],
   imports: [
     CommonModule,
     InstitucionalRoutingModule,
-    SharedModule
+    SharedModule,
+    CoreModule
   ]
 })
 export class InstitucionalModule { }

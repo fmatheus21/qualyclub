@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { FaqComponent } from './faq/faq.component';
 import { MissaoComponent } from './missao/missao.component';
 import { TopOfMindComponent } from './top-of-mind/top-of-mind.component';
 
@@ -27,6 +28,14 @@ const routes: Routes = [
     data: {
       title: 'QualyClub - Serviços Top Of Mind',
       breadcrumb: 'Serviços Top Of Mind'
+    }
+  },
+  {
+    path: 'faq',
+    component: FaqComponent,
+    data: {
+      title: 'QualyClub - Dúvidas',
+      breadcrumb: 'Dúvidas'
     }
   }
 ];

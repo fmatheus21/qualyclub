@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { BikeComponent } from './bike/bike.component';
 import { CarroReservaComponent } from './carro-reserva/carro-reserva.component';
+import { FuneralComponent } from './funeral/funeral.component';
+import { PetComponent } from './pet/pet.component';
 import { RastreamentoComponent } from './rastreamento/rastreamento.component';
 import { ResidencialComponent } from './residencial/residencial.component';
 import { SeguroApComponent } from './seguro-ap/seguro-ap.component';
@@ -63,6 +66,30 @@ const routes: Routes = [
     data: {
       title: 'QualyClub - Assistência Residencial',
       breadcrumb: 'Assistência Residencial'
+    }
+  },
+  {
+    path: 'pet',
+    component: PetComponent,
+    data: {
+      title: 'QualyClub - Assistência Pet',
+      breadcrumb: 'Assistência Pet'
+    }
+  },
+  {
+    path: 'bike',
+    component: BikeComponent,
+    data: {
+      title: 'QualyClub - Assistência Bike',
+      breadcrumb: 'Assistência Bike'
+    }
+  },
+  {
+    path: 'funeral',
+    component: FuneralComponent,
+    data: {
+      title: 'QualyClub - Assistência Funeral',
+      breadcrumb: 'Assistência Funeral'
     }
   }
 ];

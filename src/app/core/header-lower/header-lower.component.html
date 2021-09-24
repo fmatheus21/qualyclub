@@ -30,7 +30,9 @@
                   <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
                     <a [routerLink]="['/institucional/top-of-mind']">Serviços Top Of Mind</a>
                   </li>
-                  <li><a href="javascript:void(0);">Duvidas Sobre Proteção Veicular</a></li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/institucional/faq']">Duvidas</a>
+                  </li>
                   <li><a href="javascript:void(0);">Blog</a></li>
                 </ul>
               </li>
@@ -65,6 +67,15 @@
                   </li>
                   <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
                     <a [routerLink]="['/assistencia/residencial']">Residencial</a>
+                  </li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/assistencia/pet']">Pet</a>
+                  </li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/assistencia/bike']">Bike</a>
+                  </li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/assistencia/funeral']">Funeral</a>
                   </li>
                 </ul>
               </li>

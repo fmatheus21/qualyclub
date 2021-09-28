@@ -33,7 +33,9 @@
                   <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
                     <a [routerLink]="['/institucional/faq']">Duvidas</a>
                   </li>
-                  <li><a href="javascript:void(0);">Blog</a></li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/institucional/blog']">Blog</a>
+                  </li>
                 </ul>
               </li>
               <li class="dropdown" [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">

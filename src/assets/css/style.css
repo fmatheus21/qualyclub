@@ -7223,3 +7223,12 @@ div#mCSB_1_container{
 .service-style-three .service-block-two .inner-box {
   min-height: 450px;
 }
+
+
+.news-block-one .inner-box .lower-content h3 {
+  min-height: 80px;
+}
+
+/*.blog-grid .news-block-one .inner-box {
+  min-height: 750px !important;
+}*/

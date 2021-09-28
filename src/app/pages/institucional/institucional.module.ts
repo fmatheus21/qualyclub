@@ -8,6 +8,8 @@ import { MissaoComponent } from './missao/missao.component';
 import { TopOfMindComponent } from './top-of-mind/top-of-mind.component';
 import { CoreModule } from 'src/app/core/core.module';
 import { FaqComponent } from './faq/faq.component';
+import { BlogComponent } from './blog/blog.component';
+import { BlogDetailsComponent } from './blog-details/blog-details.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { FaqComponent } from './faq/faq.component';
     AboutComponent,
     MissaoComponent,
     TopOfMindComponent,
-    FaqComponent
+    FaqComponent,
+    BlogComponent,
+    BlogDetailsComponent
   ],
   imports: [
     CommonModule,

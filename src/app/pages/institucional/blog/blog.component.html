@@ -1,0 +1,47 @@
+<app-page-title></app-page-title>
+
+<section class="blog-grid">
+  <div class="auto-container">
+    <div class="row clearfix">
+
+      <div class="col-lg-4 col-md-6 col-sm-12 news-block" *ngFor="let blog of blog">
+        <div class="news-block-one wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+          <div class="inner-box">
+            <figure class="image-box">
+              <img [src]="blog.image" alt="image">
+              <a [routerLink]="['/institucional/blog/details/', blog.id]"><i class="fas fa-search"></i></a>
+            </figure>
+            <div class="lower-content">
+              <div class="pattern" style="background-image: url(assets/images/shape/pattern-6.png);"></div>
+              <h3 [title]="blog.title">
+                <a [routerLink]="['/institucional/blog/details/', blog.id]">{{ blog.title | slice:0:30 }}{{ blog.title
+                  !== null && blog.title.length>
+                  30 ? '...' : ''}}</a>
+              </h3>
+              <div class="admin-box">
+                <figure class="admin-thumb">
+                  <img [src]="blog.imageAuthor" alt="">
+                </figure>
+                <a href="javascript:void(0);">Autor: {{blog.author}}</a>
+                <span>{{blog.date}}</span>
+              </div>
+              <p>{{ blog.resume | slice:0:200 }}{{ blog.resume !== null && blog.resume.length >
+                200 ? '...' : ''}}</p>
+              <div class="btn-box">
+                <a [routerLink]="['/institucional/blog/details/', blog.id]" class="theme-btn-two">Leia Mias...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+
+  </div>
+</section>
+
+<app-agent-section-alternat></app-agent-section-alternat>

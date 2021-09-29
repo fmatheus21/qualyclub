@@ -7,6 +7,7 @@ const routes: Routes = [
   { path: 'contato', loadChildren: () => import('./pages/contato/contato.module').then(m => m.ContatoModule) },
   { path: 'institucional', loadChildren: () => import('./pages/institucional/institucional.module').then(m => m.InstitucionalModule) },
   { path: 'assistencia', loadChildren: () => import('./pages/assistencia/assistencia.module').then(m => m.AssistenciaModule) },
+  { path: 'planos', loadChildren: () => import('./pages/plano/plano.module').then(m => m.PlanoModule) },
 ];
 
 @NgModule({

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { BlogService } from 'src/app/service/blog.service';
+import { AppService } from 'src/app/service/app.service';
 
 @Component({
   selector: 'app-blog-details',
@@ -14,7 +14,7 @@ export class BlogDetailsComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private blogService: BlogService
+    private appService: AppService
   ) {
     this.route.params.subscribe(params => this.id = params['id']);
   }
@@ -24,7 +24,7 @@ export class BlogDetailsComponent implements OnInit {
   }
 
   private loadBlog() {
-    this.blogService.findAll()
+    this.appService.loadBlog()
       .subscribe(data => {
         this.returnFilter(data);
       })

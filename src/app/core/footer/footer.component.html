@@ -3,26 +3,41 @@
     <div class="auto-container">
       <div class="widget-section">
         <div class="row clearfix">
-          <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+
+          <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
             <div class="footer-widget about-widget">
               <div class="widget-title">
-                <h2>About</h2>
+                <h2>Sobre</h2>
               </div>
               <div class="widget-content">
                 <div class="text">
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese runt mollit anim
-                    id est laborum Sed.</p>
+                  <p>Desde 2018 a <b class="sec-title-b">QUALY CLUB NORDESTE</b> vem reunindo exitosas experiências,
+                    integrando parceiros de alto
+                    nível de expertise e grande respeitabilidade no mercado, para trazer aos nossos associados, soluções
+                    inovadoras em rastreamento e proteção veicular.</p>
                 </div>
                 <ul class="social-links clearfix">
-                  <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                  <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                  <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li>
+                    <a href="http://facebook.com" target="_blank">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://twitter.com" target="_blank">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://instagram.com" target="_blank">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+          <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
             <div class="footer-widget links-widget ml-50">
               <div class="widget-title">
                 <h3>Institucional</h3>
@@ -35,21 +50,27 @@
                   <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
                     <a [routerLink]="['/institucional/missao']">Missão</a>
                   </li>
-                  <li><a href="javascript:void(0);">Números</a></li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/institucional/numeros']">Números</a>
+                  </li>
                   <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
                     <a [routerLink]="['/institucional/top-of-mind']">Serviços Top Of Mind</a>
                   </li>
-                  <li><a href="javascript:void(0);">Duvidas Sobre Proteção Veicular</a></li>
-                  <li><a href="javascript:void(0);">Blog</a></li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/institucional/faq']">Dúvidas</a>
+                  </li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/institucional/blog']">Blog</a>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+          <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
             <div class="footer-widget contact-widget">
               <div class="widget-title">
-                <h3>Infomation</h3>
+                <h3>Informação</h3>
               </div>
               <div class="widget-content">
                 <div class="text">
@@ -72,24 +93,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-            <div class="footer-widget subscribe-widget">
-              <div class="widget-title">
-                <h3>Subscribe</h3>
-              </div>
-              <div class="widget-content">
-                <div class="text">
-                  <p>Lorem ipsum dolor sit amet, consect adipisicing elit eiusmod.</p>
-                </div>
-                <form action="http://azim.commonsupport.com/Metlife/contact.html" method="post" class="subscribe-form">
-                  <div class="form-group">
-                    <input type="email" name="email" placeholder="Your Email" required="">
-                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
@@ -98,15 +102,14 @@
     <div class="auto-container">
       <div class="bottom-inner">
         <div class="copyright">
-          <p>&copy; 2020 <a href="index.html">Metlife</a>. All Rights Reserved</p>
+          <p>&copy; {{date}} <a href="index.html">Qualy Club</a>. Developed by <a href="http://firecodesystems.com.br"
+              target="_blank">Firecode Systems</a></p>
         </div>
-        <figure class="footer-logo"><a href="index.html"><img src="./assets/images/footer-logo.png" alt=""></a>
+        <figure class="footer-logo">
+          <a [routerLink]="['/home']">
+            <img src="./assets/images/footer-logo.png" alt="logo">
+          </a>
         </figure>
-        <ul class="footer-nav clearfix">
-          <li><a href="index.html">Privace & Policy.</a></li>
-          <li><a href="index.html">Faq.</a></li>
-          <li><a href="index.html">Terms.</a></li>
-        </ul>
       </div>
     </div>
   </div>

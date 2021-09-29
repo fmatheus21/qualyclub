@@ -2343,6 +2343,7 @@ div#mCSB_1_container{
 .testimonial-section{
   position: relative;
   padding-bottom: 140px;
+  padding-top: 100px;
 }
 
 .testimonial-block-one .inner-box{
@@ -7228,7 +7229,3 @@ div#mCSB_1_container{
 .news-block-one .inner-box .lower-content h3 {
   min-height: 80px;
 }
-
-/*.blog-grid .news-block-one .inner-box {
-  min-height: 750px !important;
-}*/

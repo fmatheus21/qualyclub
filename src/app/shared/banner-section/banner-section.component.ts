@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppService } from 'src/app/service/app.service';
 
 @Component({
   selector: 'app-banner-section',
@@ -7,9 +8,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerSectionComponent implements OnInit {
 
-  constructor() { }
+  banner: any[];
+
+  constructor(
+    private appService: AppService
+  ) {
+  }
 
   ngOnInit(): void {
   }
+
+  private loadBanner() {
+    this.appService.loadBanner()
+      .subscribe(data => {
+        this.banner = data;
+        console.log(this.banner)
+      })
+  }
+
 
 }

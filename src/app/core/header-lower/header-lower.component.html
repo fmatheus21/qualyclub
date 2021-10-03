@@ -41,9 +41,15 @@
               <li class="dropdown" [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
                 <a href="javascript:void(0);">Nossos Planos</a>
                 <ul>
-                  <li><a [routerLink]="['/planos/carro']">Para Carros</a></li>
-                  <li><a [routerLink]="['/planos/moto']">Para Motos</a></li>
-                  <li><a [routerLink]="['/planos/utilitario']">Para Vans e Utilitários</a></li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/planos/carro']">Para Carros</a>
+                  </li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/planos/moto']">Para Motos</a>
+                  </li>
+                  <li [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">
+                    <a [routerLink]="['/planos/vans-utilitarios']">Para Vans e Utilitários</a>
+                  </li>
                 </ul>
               </li>
               <li class="dropdown" [routerLinkActive]="['current']" [routerLinkActiveOptions]="{exact: true}">

@@ -3706,6 +3706,7 @@ div#mCSB_1_container{
   box-shadow: 0 20px 40px rgb(211 220 232 / 70%);
 }
 
+
 .service-block-two .inner-box:before{
   position: absolute;
   content: '';
@@ -3812,7 +3813,7 @@ div#mCSB_1_container{
 }
 
 .service-block-two .inner-box .inner p{
-  margin-bottom: 21px;
+  margin-bottom: 0px;
   transition: all 500ms ease;
 }
 
@@ -3824,8 +3825,9 @@ div#mCSB_1_container{
 .service-block-two .inner-box:hover .inner h3 a,
 .service-block-two .inner-box:hover .inner h3,
 .service-block-two .inner-box:hover .inner p{
-  color: #fff;
+  color: #fff !important;
 }
+
 
 .service-block-two .inner-box .pattern-layer{
   position: absolute;
@@ -7228,4 +7230,36 @@ div#mCSB_1_container{
 
 .news-block-one .inner-box .lower-content h3 {
   min-height: 80px;
+}
+
+
+.modal-lg, .modal-xl {
+  max-width: 100%;
+}
+
+.modal-open .modal {
+  padding-right: 20px !important;
+  padding-left: 20px;
+}
+
+.service-block-two .inner-box .inner .btn-box {
+  padding-top: 30px;
+}
+
+.modal-dialog .about-style-four {
+  padding: 50px 0px;
+}
+
+.service-block-two .inner-box .inner {
+  min-height: 470px;
+}
+
+.service-block-two .inner-box .inner .btn-box {
+  bottom: 60px;
+  position: absolute;
+}
+
+
+.modal-dialog .about-style-four .upper-box {
+  margin-bottom: 10px;
 }

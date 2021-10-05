@@ -381,7 +381,7 @@ body{
   font-size:17px;
   line-height:30px;
   font-weight:600;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   opacity:1;
   color:#00224f;
   z-index:1;
@@ -516,7 +516,7 @@ body{
   line-height:24px;
   font-weight:400;
   font-size:16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   text-transform:capitalize;
   color:#fff;
   border-bottom: 1px solid rgba(255,255,255,0.1);
@@ -643,7 +643,7 @@ body{
   line-height:24px;
   font-weight:400;
   font-size:16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   text-transform:capitalize;
   color:#fff;
   border-bottom: 1px solid rgba(255,255,255,0.1);
@@ -1561,7 +1561,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 14px;
   line-height: 22px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   color: #727272;
   font-weight: 500;
 }
@@ -1652,7 +1652,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 40px;
   line-height: 50px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   color: #00224f;
   font-weight: 600;
   margin-bottom: 10px;
@@ -2091,7 +2091,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 24px;
   line-height: 32px;
-  font-family: 'Nunito', sans-serif;
+  font-family: Quicksand, sans-serif;
   font-weight: 900;
 }
 
@@ -2758,7 +2758,7 @@ div#mCSB_1_container{
   font-size: 17px;
   color: #00224f;
   line-height: 22px;
-  font-family: 'Nunito', sans-serif;
+  font-family: Quicksand, sans-serif;
   font-weight: 600;
   margin-bottom: 0px;
 }
@@ -3015,7 +3015,7 @@ div#mCSB_1_container{
   position: relative;
   display: inline-block;
   font-size: 17px;
-  font-family: 'Nunito', sans-serif;
+  font-family: Quicksand, sans-serif;
   color: #fff;
 }
 
@@ -3044,7 +3044,7 @@ div#mCSB_1_container{
 .footer-top .contact-widget .info-list li a{
   display: inline-block;
   color: #fff;
-  font-family: 'Nunito', sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 .footer-top .contact-widget .info-list li a:hover{
@@ -3656,7 +3656,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 16px;
   line-height: 26px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   color: #00224f;
   font-weight: 500;
   margin-bottom: 19px;
@@ -4023,7 +4023,7 @@ div#mCSB_1_container{
   float: left;
   font-size: 17px;
   line-height: 26px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   color: #00224f;
   font-weight: 700;
   text-transform: uppercase;
@@ -5205,7 +5205,7 @@ div#mCSB_1_container{
   font-size: 17px;
   color: #00224f;
   line-height: 22px;
-  font-family: 'Nunito', sans-serif;
+  font-family: Quicksand, sans-serif;
   font-weight: 600;
   margin-bottom: 0px;
 }
@@ -5339,7 +5339,7 @@ div#mCSB_1_container{
   font-size: 24px;
   color: #fff;
   line-height: 32px;
-  font-family: 'Nunito', sans-serif;
+  font-family: Quicksand, sans-serif;
   font-weight: 900;
 }
 
@@ -5395,7 +5395,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 16px;
   line-height: 26px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   font-weight: 600;
   padding-right: 15px;
   margin-right: 5px;
@@ -5537,7 +5537,7 @@ div#mCSB_1_container{
   border-radius: 50%;
   background: #003478;
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   font-weight: 600;
   box-shadow: 0 10px 20px rgb(0 52 120 / 30%);
 }
@@ -5812,7 +5812,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 22px;
   line-height: 30px;
-  font-family: 'Nunito', sans-serif;
+  font-family: Quicksand, sans-serif;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -6120,7 +6120,7 @@ div#mCSB_1_container{
   width: 33.333%;
   font-size: 16px;
   line-height: 28px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   color: #00224f;
   font-weight: 500;
   padding-left: 35px;
@@ -6172,7 +6172,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 18px;
   line-height: 28px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   color: #00224f;
   font-weight: 600;
   margin: 0px 8px;
@@ -6355,7 +6355,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 16px;
   line-height: 28px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   color: #00224f;
   font-weight: 500;
   padding-left: 35px;
@@ -6430,7 +6430,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 15px;
   line-height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   font-weight: 600;
   margin-bottom: 7px;
 }
@@ -6596,7 +6596,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 16px;
   line-height: 26px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   font-weight: 500;
   color: #00224f;
   padding: 14px 0px;
@@ -6701,7 +6701,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 16px;
   line-height: 26px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   font-weight: 500;
   color: #00224f;
   padding: 14px 0px;
@@ -6816,7 +6816,7 @@ div#mCSB_1_container{
 .blog-details-content .news-block-one .text blockquote h4{
   font-size: 20px;
   line-height: 30px;
-  font-family: 'Nunito', sans-serif;
+  font-family: Quicksand, sans-serif;
   font-weight: 600;
 }
 
@@ -6834,7 +6834,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 16px;
   line-height: 28px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   color: #00224f;
   font-weight: 500;
   padding-left: 35px;
@@ -7005,7 +7005,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 14px;
   line-height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Quicksand, sans-serif;
   font-weight: 700;
   color: #00224f;
   text-transform: uppercase;
@@ -7250,11 +7250,11 @@ div#mCSB_1_container{
   padding: 50px 0px;
 }
 
-.service-block-two .inner-box .inner {
+.service-style-two.sec-pad .service-block-two .inner-box .inner {
   min-height: 470px;
 }
 
-.service-block-two .inner-box .inner .btn-box {
+.service-style-two.sec-pad .service-block-two .inner-box .inner .btn-box {
   bottom: 60px;
   position: absolute;
 }
@@ -7263,3 +7263,4 @@ div#mCSB_1_container{
 .modal-dialog .about-style-four .upper-box {
   margin-bottom: 10px;
 }
+

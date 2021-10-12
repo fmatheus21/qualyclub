@@ -24,20 +24,14 @@
           <ul class="info-list clearfix">
             <li>
               <i class="fas fa-phone"></i>
-              <h4>Telefones</h4>
-              <p><a href="tel:11165458856">+(111) 65_458_856</a><br /><a href="tel:11165458857">+(111) 65_458_857</a>
+              <h4>Telefone</h4>
+              <p><a href="tel:8132654238">(81) 3265-4238</a>
               </p>
             </li>
             <li>
               <i class="fas fa-envelope-open"></i>
               <h4>Email</h4>
-              <p><a href="mailto:complax@gmail.com">complax@gmail.com</a><br /><a
-                  href="mailto:information@gmail.com">information@gmail.com</a></p>
-            </li>
-            <li>
-              <i class="fas fa-map-marker-alt"></i>
-              <h4>Endereço</h4>
-              <p>xxxxxx xxxxxxx xxxxxxx</p>
+              <p><a href="mailto:contato@qualyclubnordeste.com.br">contato@qualyclubnordeste.com.br</a></p>
             </li>
           </ul>
         </div>
@@ -45,28 +39,35 @@
       <div class="col-lg-8 col-md-12 col-sm-12 form-column">
         <div class="form-inner">
           <h2>Deixe-nos uma mensagem</h2>
-          <form id="contact-form" method="post" action="#" class="default-form">
+
+          <form class="default-form" [formGroup]="form" autocomplete="on" (ngSubmit)="send(form.value)">
             <div class="row clearfix">
               <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                <input type="text" name="username" placeholder="Nome *" required="">
+                <input type="text" formControlName="name" name="name" placeholder="Nome *" required minlength="3"
+                  maxlength="30">
               </div>
               <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                <input type="email" name="email" placeholder="Email *" required="">
+                <input type="email" formControlName="email" name="email" placeholder="Email *" required minlength="5"
+                  maxlength="50">
               </div>
               <div class="col-lg-6 col-md-12 col-sm-12 form-group">
-                <input type="text" name="phone" required="" placeholder="Telefone">
+                <input type="text" formControlName="phone" name="phone" mask="(00) 00000-0000" placeholder="Celular"
+                  required>
               </div>
               <div class="col-lg-6 col-md-12 col-sm-12 form-group">
-                <input type="text" name="subject" required="" placeholder="Assunto">
+                <input type="text" formControlName="subject" name="subject" placeholder="Assunto" required minlength="5"
+                  maxlength="30">
               </div>
               <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                <textarea name="message" placeholder="Mensagem..."></textarea>
+                <textarea formControlName="message" name="message" placeholder="Mensagem..." required minlength="20"
+                  maxlength="500"></textarea>
               </div>
               <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-                <button class="theme-btn-one" type="submit" name="submit-form">Enviar</button>
+                <button type="submit" class="theme-btn-one" [disabled]="!form.valid">Enviar</button>
               </div>
             </div>
           </form>
+
         </div>
       </div>
     </div>

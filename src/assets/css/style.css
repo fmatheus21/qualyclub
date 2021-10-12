@@ -60,7 +60,10 @@
 }
 
 html,
-body{
+body,
+p,
+h1, h2, h3, h4, h5, h6,
+input, button, select, textarea{
   font-family: Quicksand !important;
 }
 
@@ -1293,6 +1296,7 @@ div#mCSB_1_container{
   display: block;
   background: #fff;
   max-width: 545px;
+  min-height: 500px;
   border-radius: 10px;
   padding: 65px 70px 70px 70px;
   z-index:5;
@@ -1741,6 +1745,7 @@ div#mCSB_1_container{
 .service-block-one .inner-box .lower-content{
   position: relative;
   padding: 30px 30px 30px 40px;
+  min-height: 400px;
 }
 
 .service-block-one .inner-box .lower-content .icon-box{
@@ -7263,4 +7268,76 @@ div#mCSB_1_container{
 .modal-dialog .about-style-four .upper-box {
   margin-bottom: 10px;
 }
+
+.service-block-one .inner-box .lower-content .btn-box {
+  position: absolute;
+  bottom: 30px;
+}
+
+#content_block_8 .content-box .text p,
+#content_block_1 .content-box .upper-box .text,
+.service-block-one .inner-box .lower-content p,
+.testimonial-block-one .inner-box .text p,
+.footer-top .footer-widget p,
+#image_block_4 .image-box .content-inner .text p,
+.accordion-box .block .acc-content,
+.news-block-one .inner-box .lower-content p {
+  text-align: justify;
+}
+
+#content_block_8 .content-box .text {
+    box-shadow: 0 15px 50px #d3dce8;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.blog-details-content .news-block-one .inner-box .image-box {
+  border-radius: 10px;
+  width: 50%;
+  float: left;
+  padding-right: 30px;
+}
+
+button:disabled,
+.btn.disabled,
+.btn:disabled {
+    cursor: no-drop;
+    background-color: #86868a;
+    border-color: #86868a !important;
+    opacity: 0.3;
+}
+
+
+.p-toast {
+  width: 30rem !important;
+}
+
+.p-toast .p-toast-message.p-toast-message-error {
+  border-left: solid 0.5rem #B71C1C !important;
+}
+
+.p-toast .p-toast-message.p-toast-message-info {
+  border-left: solid 0.5rem #01579B !important;
+}
+
+.p-toast .p-toast-message.p-toast-message-warn {
+  border-left: solid 0.5rem #7f6003 !important;
+}
+
+.p-toast .p-toast-message.p-toast-message-success {
+  border-left: solid 0.5rem #1B5E20 !important;
+}
+
+.p-toast-message-content .pi-info-circle,
+.p-toast-message-content .pi-times-circle,
+.p-toast-message-content .pi-exclamation-triangle,
+.p-toast-message-content .pi-check{
+  font-size: 2.5rem !important;
+}
+
+.p-toast .p-toast-message .p-toast-message-content{
+  font-size: 0.9rem !important;
+}
+
+
 

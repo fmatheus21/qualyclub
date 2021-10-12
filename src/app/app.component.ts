@@ -25,7 +25,7 @@ export class AppComponent {
   ) { }
 
   ngOnInit() {
-    this.scriptService.loadExternalScript('./assets/js/script.js').then(() => { }).catch(() => { });
+    //this.scriptService.loadExternalScript('./assets/js/script.js').then(() => { }).catch(() => { });
     this.loadTitlePage();
     this.whatsappUrl = `https://api.whatsapp.com/send?phone=${this.whatsappNumber}`
   }

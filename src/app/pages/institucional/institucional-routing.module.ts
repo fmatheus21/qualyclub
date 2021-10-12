@@ -17,22 +17,6 @@ const routes: Routes = [
     }
   },
   {
-    path: 'missao',
-    component: MissaoComponent,
-    data: {
-      title: 'QualyClub - Missão',
-      breadcrumb: 'Missão'
-    }
-  },
-  {
-    path: 'top-of-mind',
-    component: TopOfMindComponent,
-    data: {
-      title: 'QualyClub - Serviços Top Of Mind',
-      breadcrumb: 'Serviços Top Of Mind'
-    }
-  },
-  {
     path: 'faq',
     component: FaqComponent,
     data: {

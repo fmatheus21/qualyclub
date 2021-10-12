@@ -8,6 +8,10 @@ import { NgxUiLoaderConfig, NgxUiLoaderHttpModule, NgxUiLoaderModule, NgxUiLoade
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MessageService } from 'primeng/api';
+import { ToastModule } from 'primeng/toast';
 
 
 const ngxUiLoaderConfig: NgxUiLoaderConfig = {
@@ -29,7 +33,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   //logoUrl: 'assets/images/logo.png',
   // overlayBorderRadius: '0',
   //overlayColor: 'rgba(40, 40, 40, 0.8)',
-  overlayColor: '#15397b',
+  overlayColor: 'rgb(21, 56, 122, 0.8)',
   pbColor: '#8ee000',
   pbDirection: PB_DIRECTION.leftToRight,
   pbThickness: 5,
@@ -47,8 +51,10 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,
+    ToastModule,
     CoreModule,
     SweetAlert2Module.forRoot(),
     NgxUiLoaderModule.forRoot(ngxUiLoaderConfig),
@@ -56,6 +62,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
     NgxUiLoaderRouterModule.forRoot({ showForeground: true })
   ],
   providers: [
+    MessageService,
     { provide: LocationStrategy, useClass: HashLocationStrategy }
   ],
   bootstrap: [AppComponent]

@@ -14,7 +14,7 @@ import 'rxjs/add/operator/mergeMap';
 export class AppComponent {
 
   breadcrumb: string;
-  private whatsappNumber: string = '5521981964019';
+  private whatsappNumber: string = '558192901179';
   whatsappUrl: string;
 
   constructor(

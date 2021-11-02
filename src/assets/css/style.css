@@ -2358,6 +2358,7 @@ div#mCSB_1_container{
   border-radius: 10px;
   padding: 64px 60px 70px 70px;
   box-shadow: 0 10px 40px rgb(211, 220, 232, 0.6);
+  min-height: 350px;
 }
 
 .testimonial-section .owl-carousel .owl-stage-outer{
@@ -2375,6 +2376,7 @@ div#mCSB_1_container{
 
 .testimonial-block-one .inner-box .text{
   margin-bottom: 20px;
+  min-height: 150px;
 }
 
 .testimonial-block-one .inner-box .text p{

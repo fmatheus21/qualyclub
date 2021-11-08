@@ -16,7 +16,7 @@ try {
     $mail->Host       = 'mail.qualyclubnordeste.com.br';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'form@qualyclubnordeste.com.br';
-    $mail->Password   = 'fjMfWhM8cG7SjpQ@';
+    $mail->Password   = 'XXXXXXXXXXXXXXXXX';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 587;
 

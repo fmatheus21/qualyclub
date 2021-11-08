@@ -30,6 +30,9 @@ import { UtilitarioPlanoBasicoComponent } from './modal/utilitario-plano-basico/
 import { UtilitarioPlanoPrataComponent } from './modal/utilitario-plano-prata/utilitario-plano-prata.component';
 import { UtilitarioPlanoOuroComponent } from './modal/utilitario-plano-ouro/utilitario-plano-ouro.component';
 import { UtilitarioPlanoDiamanteComponent } from './modal/utilitario-plano-diamante/utilitario-plano-diamante.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgxMaskModule } from 'ngx-mask';
+import { FormContactComponent } from './form-contact/form-contact.component';
 
 
 @NgModule({
@@ -62,11 +65,15 @@ import { UtilitarioPlanoDiamanteComponent } from './modal/utilitario-plano-diama
     UtilitarioPlanoBasicoComponent,
     UtilitarioPlanoPrataComponent,
     UtilitarioPlanoOuroComponent,
-    UtilitarioPlanoDiamanteComponent
+    UtilitarioPlanoDiamanteComponent,
+    FormContactComponent
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    FormsModule,
+    ReactiveFormsModule,
+    NgxMaskModule.forRoot()
   ],
   exports: [
     BannerSectionComponent,
@@ -96,7 +103,8 @@ import { UtilitarioPlanoDiamanteComponent } from './modal/utilitario-plano-diama
     UtilitarioPlanoBasicoComponent,
     UtilitarioPlanoPrataComponent,
     UtilitarioPlanoOuroComponent,
-    UtilitarioPlanoDiamanteComponent
+    UtilitarioPlanoDiamanteComponent,
+    FormContactComponent
   ]
 })
 export class SharedModule { }

@@ -20,10 +20,18 @@ export class MailService {
   constructor(private http: HttpClient) { }
 
   sendContact(data: any): Observable<any> {
-    return this.http.post(this.apiUrl + '/assets/mail/send-mail-contact.php', data, this.httpOptions).pipe(
+    let url = `?name=${data.name}&email=${data.email}&phone=${data.phone}&subject=${data.subject}&message=${data.message}`;
+    return this.http.get(this.apiUrl + `/assets/mail/send-mail-contact.php${url}`).pipe(
       catchError(this.handleError)
     );
   }
+
+  /* sendContact(data: any): Observable<any> {
+     console.log(data);
+     return this.http.post(this.apiUrl + '/assets/mail/send-mail-contact.php', data, this.httpOptions).pipe(
+       catchError(this.handleError)
+     );
+   }*/
 
   private handleError(error: HttpErrorResponse) {
     return throwError(error);

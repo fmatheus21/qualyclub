@@ -5,6 +5,7 @@ import { ContatoRoutingModule } from './contato-routing.module';
 import { ContatoComponent } from './contato/contato.component';
 import { NgxMaskModule } from 'ngx-mask';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule,
     ContatoRoutingModule,
+    SharedModule,
     NgxMaskModule.forRoot()
   ],
   providers: []

@@ -2,27 +2,22 @@
 
 require 'HEADER.php';
 
-$postdata = file_get_contents("php://input");
-$request = json_decode($postdata);
-@$name = $request->name;
-@$email = $request->email;
-@$phone = $request->phone;
-@$subject = $request->subject;
-@$message = $request->message;
+$name = $_GET['name'];
+$email = $_GET['email'];
+$phone = $_GET['phone'];
+$subject = $_GET['subject'];
+$message = $_GET['message'];
 
-$recipient = 'form@aliancario.org.br';
-$subject = 'Cotação';
+$body =
+'<p><b>Assunto:</b> '.$subject.
+'<p><b>Nome:</b> '.$name.
+'<p><b>E-Mail:</b> '.$email.
+'<p><b>Telefone:</b> '.$phone.
+'<p><b>Mensagem:</b> '.$message.
+'<hr>';
 
-$body = '<strong>'.$subject.'</strong>
-<p><b>Nome:</b> '.$name.'
-<p><b>E-Mail:</b> '.$email.'
-<p><b>Telefone:</b> '.$phone.'
-<p><b>Mensagem:</b> '.$message.'
-<hr>';
+echo $body;
 
 require 'SMTP.php';
 
-
 ?>
-
-

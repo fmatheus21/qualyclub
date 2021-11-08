@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'app-contact-section',
   templateUrl: './contact-section.component.html',
@@ -7,9 +6,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactSectionComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+
 
 }
